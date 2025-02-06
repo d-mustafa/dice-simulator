@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Dice Rolling Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script defer src="script.js"></script>
+    <h1>Dice Simulator</h1>
+    <hr>
+    <h4>Choose a simulation option</h4>
+
+    <select id="drop-down-list">
+        <option value="roll-1">Roll Once</option>
+        <option value="roll-5">Roll Five Times</option>
+        <option value="roll-x">Roll X Times</option>
+        <option value="roll-snake">Roll Until Snake-Eyes</option>
+        <option value="roll-until-x">Roll Until [X]</option>
+        <option value="roll-until-x_x">Roll Until [X,X]</option>
+    </select>
+
+    <br>
+
+    <div>
+        <button id="roll-button">ROLL</button>
+        <button id="reset-button">RESET</button>
+        <button id="img-or-text">TEXT/IMAGE</button>
+    </div>
+
+    <br>
+
+    <div id="dice-box" class="border">
+        <img id="first-dice" width="150px" src="images/1.png">
+        <img id="second-dice" width="150px" src="images/2.png">
+    </div>
+    
+
+    <div id="dice-rolls-box" class="border">
+        <h3>Dice Rolls</h3>
+        <h4>Counter: <b id="roll-counter" style="color: purple;">0</b></h4>
+        <div id="history"></div>
+    </div>
+</body>
+</html>

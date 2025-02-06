@@ -1,0 +1,88 @@
+html {
+    background-color: purple;
+}
+
+body {
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    background-color: #6260d2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+select {
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.border {
+    margin-left: 22.5px;
+    width: 400px;
+    padding: 25px;
+    border: purple 2px solid;
+}
+
+/* buttons */
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: purple 2px solid;
+    border-radius: 10px;
+    background-color: purple;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: purple;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#roll-button {
+    margin-right: 15px;
+}
+#reset-button{
+    margin-right: 15px;
+}
+
+#img-or-text {
+    width: 120px;
+}
+
+
+/* dice history */
+#dice-box {
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+
+
+span {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    display: inline-block; /* span elements won't go offscreen */
+}
+
+
+
+/* images */
+img {
+    width: 150px;
+    transform: rotate(0Deg);
+}
+#first-dice {
+    margin-right: 20px;
+}
+.imghistory {
+    width: 20px;
+}
